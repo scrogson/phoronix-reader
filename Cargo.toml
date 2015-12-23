@@ -1,0 +1,13 @@
+[package]
+name = "phoronix-reader"
+version = "0.1.0"
+authors = ["Sonny Scroggin <scrogson@gmail.com>"]
+
+[dependencies]
+gtk = {git = "https://github.com/gtk-rs/gtk"}
+getopts = "*"
+gdk = {git = "https://github.com/gtk-rs/gdk"}
+hyper = "*"
+pango = {git = "https://github.com/gtk-rs/pango"}
+select = "*"
+term = "*"
